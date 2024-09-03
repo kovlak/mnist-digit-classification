@@ -37,11 +37,6 @@ Thumbs.db
 # Archivos de registro
 *.log
 
-# Archivos de datos grandes (si tienes alguno)
-# *.csv
-# *.json
-# *.h5
-
 # Archivos de configuración local
 .env
 
