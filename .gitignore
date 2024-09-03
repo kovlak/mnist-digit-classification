@@ -1,0 +1,61 @@
+# Archivos y directorios de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entorno virtual
+tensorflow_env/
+venv/
+ENV/
+
+# Archivos generados
+*.png
+*.jpg
+*.jpeg
+*.gif
+
+# Notebooks de Jupyter
+.ipynb_checkpoints
+
+# Archivos de TensorFlow
+*.ckpt
+*.pb
+*.pbtxt
+events.out.tfevents.*
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de registro
+*.log
+
+# Archivos de datos grandes (si tienes alguno)
+# *.csv
+# *.json
+# *.h5
+
+# Archivos de configuración local
+.env
+
+# Directorios de construcción
+build/
+dist/
+*.egg-info/
+
+# Archivos de caché de pytest
+.pytest_cache/
+
+# Archivos de cobertura
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
